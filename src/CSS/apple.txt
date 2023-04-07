@@ -1,0 +1,29 @@
+header
+    div
+        ul
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            
+  ---------------------------------------
+    section (height = 757px ,width = 100%)
+        div{
+            div (p)
+            div (h1)
+            div (h2)
+            div{
+                div (a)
+                div (a)
+            }
+            div (img)
+        }

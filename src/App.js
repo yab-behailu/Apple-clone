@@ -1,11 +1,23 @@
 //import logo from './logo.svg';
-import './App.css';
-import Iphone from './Iphone';
+
+import FirstSection from "./Components/FirstSection";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Iphone from "./Components/Iphone";
+//import Iphone from "./Components/Iphone";
+//import "./CSS/AppleStyle.css";
+
+
 function App() {
   return (
     <div className="App">
-    <Iphone />
-     <p>From App</p>
+    <Header />
+    <FirstSection/>
+    <Iphone/>
+    <FirstSection/>
+    <Iphone/>
+    <FirstSection/>
+    <Footer />
     </div>
   );
 }
